@@ -10,7 +10,7 @@ Sebuah shortcut berupa Python script yang sangat sederhana, untuk bisa login ke 
 Jalankan script ini ketika:
 1. Kalian akan memulai Zoom meeting pertama di hari itu juga (Shift 1)
 2. Zoom meeting shift pertama sudah selesai 
-(Contoh: **1st Zoom meeting = 09.20 - 11.00 WIB**, jika kalian mau menjalankan **2nd Zoom meeting**, maka **harus menunggu sampai jam 11.00 WIB**, sehingga data di website MyClass sudah terupdate)
+(Contoh: **1st Zoom meeting = 09.20 - 11.00 WIB**, jika kalian mau menjalankan **2nd Zoom meeting (11.20 - 13.00 WIB)**, maka kalian **harus menunggu sampai jam 11.00 WIB**, sehingga data di website MyClass sudah terupdate)
 
 # Notes:
 (Gausah dibaca sih wkwk but yeah kalo ada something happen, read it)
