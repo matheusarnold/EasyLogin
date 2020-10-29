@@ -6,6 +6,12 @@ Sebuah shortcut berupa Python script yang sangat sederhana, untuk bisa login ke 
 2. Tunggu program selesai menginstall urllib dan selenium, lalu isi email dan password Bimay (JANGAN PAKAI @BINUS.AC.ID)
 3. Tunggu sekitar 1 menit (Harusnya cuma 15 detik but yeah just in case), and happy Zooming :D
 
+# Rules:
+Jalankan script ini ketika:
+1. Kalian akan memulai Zoom meeting pertama di hari itu juga (Shift 1)
+2. Zoom meeting shift pertama sudah selesai 
+(Contoh: **1st Zoom meeting = 09.20 - 11.00 WIB**, jika kalian mau menjalankan **2nd Zoom meeting**, maka **harus menunggu sampai jam 11.00 WIB**, sehingga data di website MyClass sudah terupdate)
+
 # NOTE:
 (Gausah dibaca sih wkwk but yeah kalo ada something happen, read it)
 
