@@ -1,7 +1,7 @@
 # EasyLogin
 Sebuah shortcut berupa Python script yang sangat sederhana, untuk bisa login ke Binusmaya My Class, lalu mengambil link Zoom paling atas. Semua itu hanya dilakukan dengan double-click, sehingga tidak perlu mengetik atau klik sana-sini, hanya untuk memulai Zoom meeting yang lama dan melelahkan...
 
-# HOW TO USE:
+# How to Use:
 1. Extract, lalu run "EasyLogin.py" (Klik 2x, atau klik kanan - Open)
 2. Tunggu program selesai menginstall urllib dan selenium, lalu isi email dan password Bimay (JANGAN PAKAI @BINUS.AC.ID)
 3. Tunggu sekitar 1 menit (Harusnya cuma 15 detik but yeah just in case), and happy Zooming :D
@@ -12,7 +12,7 @@ Jalankan script ini ketika:
 2. Zoom meeting shift pertama sudah selesai 
 (Contoh: **1st Zoom meeting = 09.20 - 11.00 WIB**, jika kalian mau menjalankan **2nd Zoom meeting**, maka **harus menunggu sampai jam 11.00 WIB**, sehingga data di website MyClass sudah terupdate)
 
-# NOTE:
+# Notes:
 (Gausah dibaca sih wkwk but yeah kalo ada something happen, read it)
 
 ## PYTHON SUDAH HARUS TERINSTALL DI LAPTOP KALIAN YA :D
