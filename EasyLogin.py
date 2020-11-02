@@ -39,23 +39,19 @@ except TimeoutException:
     print("Timed out waiting for page to load")                     # Kalo ternyata setelah 20 detik kagak muncul" maka end program nya
     driver.quit()                                                   # Close semua (Browser and CMD)
 
-try:
-    webbrowser.open(driver.find_element_by_xpath
-    ('//*[@id="studentViconList"]/tbody/tr[3]/td[12]/div/a')        # Try to find the element, kemudian ambil content 'href' nya
-    .get_attribute('href'))                                         # Setelah itu, buka content 'href' di browser default
+for a in driver.find_elements_by_xpath('//a'):                      # Perulangan untuk semua //a di webpage
+    links = a.get_attribute('href')                                 # Dapatkan isi 'href'
 
-except NoSuchElementException:
-    try:
-        print("Shift saat ini adalah GSLC, dan Zoom meeting untuk shift berikutnya akan segera dibuka")
-        time.sleep(5)                                               # Jeda untuk kalian baca output di atas
+    ex1 = "https://myclass.apps.binus.ac.id/"                       # Pengecualian untuk link-link ini
+    ex2 = None
+    ex3 = "https://myclass.apps.binus.ac.id/Home/Index#"
+    ex4 = "https://myclass.apps.binus.ac.id/Auth/Logout"
+    ex5 = "https://twitter.com/binusmaya"
+    ex6 = "http://facebook.com/universitas.bina.nusantara"
 
-        webbrowser.open(driver.find_element_by_xpath
-        ('//*[@id="studentViconList"]/tbody/tr[4]/td[12]/div/a')
-        .get_attribute('href'))                                     # Karena gagal, cari elemen ini, ambil 'href' nya, dan buka di browser default
-    
-    except NoSuchElementException:                                  # Kalo masih ga nemu juga, ya maka program nyerah dan ngasih output ini
-        print("Shift pertama dan kedua adalah GSLC, silahkan coba lagi pada shift berikutnya")
-        time.sleep(5)
+    if links != ex1 and links != ex2 and links != ex3 and links != ex4 and links != ex5 and links != ex6:
+        webbrowser.open(links)                                      # Buka link paling atas
+        break                                                       # Break program agar dia ga ngebuka link di bawahnya
 
 f.close()                                                           # Kalo udah semuanya, close dokumen Credential.txt
 driver.quit()                                                       # Dan close semua (Browser and CMD)
