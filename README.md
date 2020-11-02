@@ -1,5 +1,5 @@
 # EasyLogin
-Sebuah shortcut berupa Python script yang sangat sederhana, untuk bisa login ke Binusmaya My Class, lalu mengambil link Zoom paling atas. Semua itu hanya dilakukan dengan double-click, sehingga tidak perlu mengetik atau klik sana-sini, hanya untuk memulai Zoom meeting yang lama dan melelahkan...
+Sebuah shortcut berupa Python script yang sangat sederhana, untuk bisa login ke Binusmaya My Class, lalu mengambil link Zoom shift pertama. Semua itu hanya dilakukan dengan double-click, sehingga tidak perlu mengetik atau klik sana-sini, hanya untuk memulai Zoom meeting yang lama dan melelahkan...
 
 # How to Use:
 1. Extract, lalu run "EasyLogin.py" (Klik 2x, atau klik kanan - Open)
