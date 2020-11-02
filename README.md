@@ -12,6 +12,9 @@ Jalankan script ini ketika:
 2. Zoom meeting shift pertama sudah selesai 
 (Contoh: **1st Zoom meeting = 09.20 - 11.00 WIB**, jika kalian mau menjalankan **2nd Zoom meeting (11.20 - 13.00 WIB)**, maka kalian **harus menunggu sampai jam 11.00 WIB**, sehingga data di website MyClass sudah terupdate)
 
+# Disclaimer:
+Mengingat bahwa Selenium dapat digunakan untuk hal yang tidak bertanggungjawab (Saya ga akan sebut wkwk), maka di sini saya TIDAK BERTANGGUNGJAWAB atas MODIFIKASI SCRIPT yang dilakukan oleh SIAPAPUN, dengan menggunakan script original yang telah saya tulis.
+
 # Notes:
 (Gausah dibaca sih wkwk but yeah kalo ada something happen, read it)
 
